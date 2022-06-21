@@ -24,9 +24,9 @@ public class ProyectoAuto {
         Thread.sleep(1500);
         driver.navigate().to("https://www.saucedemo.com");
         Thread.sleep(1500);
-        driver.findElement(By.name("user-name")).sendKeys("Pedrito el papichulo");
+        driver.findElement(By.name("user-name")).sendKeys("Antonio");
         Thread.sleep(1500);
-        driver.findElement(By.name("password")).sendKeys("Antonio su compare");
+        driver.findElement(By.name("password")).sendKeys("VaritaMagica");
         Thread.sleep(1500);
         driver.findElement(By.name("login-button")).click();
         Thread.sleep(1500);
