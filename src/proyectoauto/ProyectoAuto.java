@@ -26,7 +26,7 @@ public class ProyectoAuto {
         Thread.sleep(1500);
         driver.findElement(By.name("user-name")).sendKeys("Pedrito");
         Thread.sleep(1500);
-        driver.findElement(By.name("password")).sendKeys("secret_sauce");
+        driver.findElement(By.name("password")).sendKeys("Antonio");
         Thread.sleep(1500);
         driver.findElement(By.name("login-button")).click();
         Thread.sleep(1500);
