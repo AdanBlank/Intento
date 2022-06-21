@@ -40,26 +40,6 @@ public class ProyectoAuto {
         Thread.sleep(1500);
         driver.quit();
         
-
-
-//        driver.navigate().to("http://automationpractice.com/");
-//        driver.manage().window().maximize();
-//        driver.findElement(By.className("login")).click();
-//        driver.findElement(By.name("email_create")).sendKeys("suculento@gmail.com");
-//        driver.findElement(By.name("SubmitCreate")).click();
-//        driver.findElement(By.id("id_gender1")).click();
-//        driver.findElement(By.className("radio active")).click();
-        
-//        driver.findElement(By.id("id_gender2")).isSelected();
-
-        
-//        driver.findElement(By.className("a.login")).click();
-//        WebElement Busqueda = driver.findElement(By.name("a.login")).click();
-//        Busqueda.sendKeys("");     
-//        Busqueda.submit();
-        
-        
-
         String appTitle= driver.getTitle();
         
         System.out.println("Titulo de Aplicacion"+appTitle);
